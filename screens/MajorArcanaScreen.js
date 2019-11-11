@@ -7,7 +7,7 @@ import TabBarIcon from '../components/TabBarIcon.js';
 
 export default class MajorArcanaScreen extends Component {
     static navigationOptions = {
-        tabBarLabel: 'Major',
+        tabBarLabel: 'Major Arcana',
         tabBarIcon: ({ focused }) => (
           <TabBarIcon
             focused={focused}
@@ -18,15 +18,11 @@ export default class MajorArcanaScreen extends Component {
             }
           />
         ),
+        header: null
       };
     
     render() {
-        return (
-            <View style={{backgroundColor: '#000'}}>
-                <Text>TESTING</Text>
-                <Tarot />
-            </View>  
-        );
+        return <Tarot/>;
     }
 }
 

@@ -16,5 +16,6 @@ export default createAppContainer(
   },
   {
       initialRouteName: 'Main',
+      headerMode: 'none'
   })
 );
