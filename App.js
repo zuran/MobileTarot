@@ -1,13 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Tarot from './components/Tarot';
+import AppNavigator from './navigation/AppNavigator';
 
 export default function App() {
   
   return (
-    <View style={styles.container}>
-      <Tarot />
-    </View>
+      <AppNavigator />
   );
 }
 

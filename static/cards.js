@@ -1,4 +1,4 @@
-export const MAJOR = [
+export const MAJOR_ARCANA = [
     {
         title: 'The Fool',
         desc: 'Beginnings, innocence, spontaneity, a free spirit',
