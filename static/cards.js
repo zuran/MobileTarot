@@ -1,4 +1,4 @@
-export const CARDS = [
+export const MAJOR = [
     {
         title: 'The Fool',
         desc: 'Beginnings, innocence, spontaneity, a free spirit',
