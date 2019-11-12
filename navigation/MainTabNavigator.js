@@ -202,6 +202,6 @@ export default createBottomTabNavigator({
   PentaclesScreen
 },
 {
-    initialRouteName: 'WandsScreen',
+    initialRouteName: 'MajorArcanaScreen',
 }
 );
